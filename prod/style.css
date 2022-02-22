@@ -1,0 +1,27 @@
+html {
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
+}
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  font-size: 16px;
+  width: 100%;
+  font-family: paralucent, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.wrapper {
+  width: 100%;
+  max-width: 840px;
+  margin: 0 auto;
+  padding: 0 50px;
+  position: relative;
+}
+@media (max-width: 1023px) {
+  .wrapper {
+    padding: 40px;
+  }
+}
