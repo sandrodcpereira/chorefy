@@ -11,7 +11,7 @@
 	
 	<link rel="stylesheet" href="https://use.typekit.net/ubb7obd.css">
 
-	<script src="https://kit.fontawesome.com/266997c388.js"></script>
+	<link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 	<script src="prod/script.js"></script>
 
@@ -42,13 +42,23 @@
 	<title>Chorefy — Your competivie chores tracker</title>
 
 </head>
-<body class="home">
+<body>
 
-	<div class="wrapper">
+	<div class="wrapper header">
 		<header>
-			<div class="logo">Chorefy</div>
-			<h1>See how you stack up against your friends when doing chores!</h1>
+			<img src="assets/chorefy-logo.png" alt="Chorefy logo, a stylised C inside a coral red circle." class="icon">
+			<div class="type">Chorefy</div>
+			<h1>See how you stack up against your friends<br>when doing chores!</h1>
 
+			<img src="assets/hero-image.png" alt="Devices showing the Chorefy app." class="hero">
+
+			
+		</header>
+	</div>
+
+	<div class="wrapper form">
+
+		<section class="form">
 			<form action="#TODO">
 
 				<input id="email" placeholder="rickastley@chorefy.io" type="email" required>
@@ -56,28 +66,42 @@
 				<input type="submit" value="Request invite">
 				
 			</form>
-		</header>
+		</section>
 	</div>
 
-	<div class="wrapper">
+	<div class="wrapper features">
+
 		<section>
 
 			<div class="group">
-				<h3>Prove how much you're helping around the house</h3>
-				<p>Tired of being told you don't do much around the house? Now you can prove it — and beat your opponents while you're at it.</p>
-			</div>
+				<i class="las la-cookie-bite"></i>
+				<h3>How? It couldn't be easier! </h3>
+				<p>Just download, add the people you live with, and start logging the chores you do around the house.</p>
+			</div><!--
 
-			<div class="group">
+			--><div class="group">
+				<i class="lar la-check-circle"></i>
+				<h3>Prove how much you're helping</h3>
+				<p>Tired of being told you don't do much around the house? Now you can prove it.</p>
+			</div><!--
+
+			--><div class="group">
+				<i class="las la-medal"></i>
 				<h3>Participate in weekly competitions</h3>
 				<p>Every week is an opportunity to take the crown – or keep it! Can you keep your streak going?</p>
-			</div>
+			</div><!--
 
-			<div class="group">
+			--><div class="group">
+				<i class="las la-crown"></i>
 				<h3>Unlock badges and awards</h3>
-				<p>Showcase particularly great records and streaks with your shiny achievements. Make your opponents jealous!</p>
+				<p>Showcase particularly great records and streaks with your shiny achievements.</p>
 			</div>
 
 		</section>
+
+	</div>
+
+	<div class="wrapper household">
 
 		<section>
 			
@@ -85,16 +109,19 @@
 
 			<ul>
 				<li>
+					<i class="las la-child"></i>
 					<h4>Family with kids</h4>
 					<p>Chorefy will help the little ones start contributing by awarding points and achievements</p>
 				</li>
 
 				<li>
+					<i class="lar la-heart"></i>
 					<h4>Couple living together</h4>
-					<p>Introduce some healthy competition and prove how much you love your partner by helping out (and taking the crown from under their nose)</p>
+					<p>Prove how much you love your partner by helping out (and taking the crown from under their nose)</p>
 				</li>
 
 				<li>
+					<i class="las la-home"></i>
 					<h4>Houseshare</h4>
 					<p>Finally find out who's really helping and who's slacking off</p>
 				</li>
@@ -103,16 +130,16 @@
 		</section>
 	</div>
 
-	<div class="wrapper">
+	<div class="wrapper footer">
 		<footer>
 
 			<h2>Request an invite now to get in!</h2>
 			
 			<form action="#TODO">
 
-				<input id="email" placeholder="rickastley@chorefy.io" type="email" required>
+				<input id="email" placeholder="rickastley@chorefy.io" type="email" required><!--
 
-				<input type="submit" value="Request invite">
+				--><input type="submit" value="Request invite">
 				
 			</form>
 
