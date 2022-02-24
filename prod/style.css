@@ -69,6 +69,10 @@ section {
 }
 .wrapper.form {
   background-color: #FA746B;
+  background-image: url('../assets/bg-pattern-2.png');
+  background-size: 32px;
+  background-position: center center;
+  padding-bottom: 0;
 }
 .wrapper.features {
   background-color: #F8F3E7;
