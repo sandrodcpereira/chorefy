@@ -198,3 +198,8 @@ form input[type="submit"]:hover {
     width: 100%;
   }
 }
+@media (max-width: 460px) {
+  form input[type="email"] {
+    margin-bottom: 8px;
+  }
+}
