@@ -1,0 +1,207 @@
+html {
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
+}
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  font-size: 16px;
+  width: 100%;
+  font-family: paralucent, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  background-color: #1A3850;
+  color: #F8F3E7;
+}
+p {
+  font-family: paralucent-text, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
+}
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+header,
+footer,
+section {
+  max-width: 840px;
+  margin: 0 auto;
+  padding: 48px 0;
+  text-align: center;
+}
+.wrapper.header {
+  background-image: url("bg-pattern.f4931e3e.png");
+  background-size: 32px;
+  background-position: center center;
+  padding-bottom: 0;
+}
+.wrapper.header header {
+  padding-bottom: 0;
+  width: 100%;
+  max-width: 100%;
+  background-image: url("bubbles.c41ffb20.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 1200px;
+}
+.wrapper.header header .icon {
+  width: 80px;
+}
+.wrapper.header header .type {
+  font-size: 32px;
+}
+.wrapper.header header h1 {
+  font-size: 24px;
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wrapper.header header .hero {
+  width: 100%;
+  max-width: 480px;
+  display: block;
+  margin: 0 auto;
+}
+.wrapper.form {
+  background-color: #FA746B;
+  background-image: url("bg-pattern-2.203d072f.png");
+  background-size: 32px;
+  background-position: center center;
+  padding-bottom: 0;
+}
+.wrapper.features {
+  background-color: #F8F3E7;
+  color: #4D3124;
+}
+.wrapper.features .group {
+  text-align: left;
+  vertical-align: top;
+  display: inline-block;
+  width: 50%;
+  padding: 2px 16px 8px 72px;
+  position: relative;
+}
+@media (max-width: 1023px) {
+  .wrapper.features .group {
+    width: 100%;
+  }
+}
+.wrapper.features .group i {
+  background-color: #FA746B;
+  font-size: 16px;
+  padding: 8px;
+  border-radius: 16px;
+  color: #F8F3E7;
+  position: absolute;
+  top: 16px;
+  left: 24px;
+}
+.wrapper.features .group:nth-child(1) i {
+  background-color: #F6A9B1;
+}
+.wrapper.features .group:nth-child(2) i {
+  background-color: #879BF3;
+}
+.wrapper.features .group:nth-child(3) i {
+  background-color: #F0B833;
+}
+.wrapper.features .group:nth-child(4) i {
+  background-color: #E49366;
+}
+.wrapper.household {
+  background-color: #80D6BD;
+  color: #1A3850;
+}
+.wrapper.household ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+.wrapper.household ul li {
+  text-align: center;
+  vertical-align: top;
+  display: inline-block;
+  width: 33%;
+  padding: 16px;
+}
+@media (max-width: 1023px) {
+  .wrapper.household ul li {
+    width: 100%;
+  }
+}
+.wrapper.household ul li i {
+  font-size: 120px;
+}
+.wrapper.footer {
+  background-image: url("bg-pattern.f4931e3e.png");
+  background-size: 32px;
+  background-position: center center;
+  padding-bottom: 0;
+}
+.wrapper.footer p {
+  font-size: 14px;
+  margin-top: 32px;
+}
+.wrapper.footer p a {
+  color: #F8F3E7;
+}
+form {
+  background-color: white;
+  border: 2px solid #F2D5B4;
+  width: 440px;
+  border-radius: 34px;
+  text-align: right;
+  margin: 0 auto;
+  padding: 8px;
+}
+@media (max-width: 460px) {
+  form {
+    width: calc(100% - 32px);
+  }
+}
+form input[type="email"] {
+  font-family: paralucent-text, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  border: none;
+  padding: 16px;
+  margin: 0;
+  background: none;
+  border-radius: 32px;
+  width: 256px;
+}
+form input[type="submit"] {
+  font-family: paralucent, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  background: #5B7AD6;
+  padding: 16px 24px;
+  border-radius: 32px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  filter: drop-shadow(0px 6px 12px #5B7AD667);
+  width: 160px;
+  transition: background 0.2s, filter 0.2s;
+}
+form input[type="submit"]:hover {
+  background: #4267D3;
+  filter: drop-shadow(0px 2px 18px #5B7AD667);
+}
+@media (max-width: 460px) {
+  form input[type="submit"],
+  form input[type="email"] {
+    width: 100%;
+  }
+}
+@media (max-width: 460px) {
+  form input[type="email"] {
+    margin-bottom: 8px;
+  }
+}
+
+/*# sourceMappingURL=index.f046391a.css.map */
