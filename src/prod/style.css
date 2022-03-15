@@ -48,6 +48,7 @@ section {
   background-repeat: no-repeat;
   background-position: top center;
   background-size: 1200px;
+  padding: 48px 16px 0 16px;
 }
 .wrapper.header header .icon {
   width: 80px;
@@ -82,7 +83,7 @@ section {
   text-align: left;
   vertical-align: top;
   display: inline-block;
-  width: 50%;
+  width: calc(50% - 2px);
   padding: 2px 16px 8px 72px;
   position: relative;
 }
