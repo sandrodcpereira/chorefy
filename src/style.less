@@ -84,7 +84,7 @@ header, footer, section {
 
 		.hero {
 			width: 100%;
-			max-width: 480px;
+			max-width: 320px;
 			display: block;
 			margin: 0 auto;
 		}
@@ -108,7 +108,7 @@ header, footer, section {
 		text-align: left;
 		vertical-align: top;
 		display: inline-block;
-		width: 50%;
+		width: 48%;
 		padding: 2px 16px 8px 72px;
 		position: relative;
 
@@ -118,8 +118,8 @@ header, footer, section {
 
 		i {
 			background-color: @coral-red;
-			font-size: 16px;
-			padding: 8px;
+			font-size: 24px;
+			padding: 4px;
 			border-radius: 16px;
 			color: @light-brown;
 			position: absolute;
@@ -210,17 +210,11 @@ form {
 		background: #5B7AD6;
 		padding: 16px 24px;
 		border-radius: 32px;
-		cursor: pointer;
+		cursor:	not-allowed;
 		border: none;
 		color: white;
 		filter: drop-shadow(0px 6px 12px #5B7AD667);
-		width: 160px;
-		transition: background 0.2s, filter 0.2s;;
-
-		&:hover {
-			background: #4267D3;
-			filter: drop-shadow(0px 2px 18px #5B7AD667);
-		}
+		width: 160px; 
 	}
 
 	input[type="submit"], input[type="email"] {
@@ -238,6 +232,26 @@ form {
 }
 
 
+.banner {
+	text-align: center;
+	margin: auto;
+	padding: 16px;
+	font-size: 16px;
+	font-weight: 300;
+	background-color: @coral-red;
 
+	background-image: url('../assets/bg-pattern-2.png');
+
+	p {
+		font-family: paralucent-text, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    span {
+    	font-family: paralucent, sans-serif;
+			font-weight: 700;
+    }
+	}
+}
 
 
